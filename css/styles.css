@@ -1,0 +1,201 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand > img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+.navbar {
+  margin-bottom: 0;
+}
+.navbar-brand {
+  height: 75px;
+}
+.nav > li > a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+.wrapper {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.hero {
+  /*background-color: #999;
+	padding: 80px 0px;*/
+  background: url(../images/hero2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+#heroLogo {
+  width: 700px;
+  margin: 0 auto;
+  padding-top: 20px;
+  border: solid blue;
+  /* img:hover{
+  	 -webkit-transform: scale(1.3);
+     -ms-transform: scale(1.3);
+     transform: scale(1.3);
+     transition-duration: .3s;
+  }*/
+}
+#heroLogo img {
+  height: 100%;
+  width: 100%;
+}
+#heroLogo h1 {
+  border: solid blue;
+  color: white;
+  text-align: center;
+  font-size: 64px;
+  font-family: 'Permanent Marker', cursive;
+}
+.main {
+  padding: 80px 0px;
+  height: 700px;
+  background-color: black;
+  overflow-y: scroll;
+}
+.main h1 {
+  font-size: 64px;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: 'Permanent Marker', cursive;
+}
+.main h2 {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 28px;
+  color: white;
+  text-align: center;
+}
+.main p {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+.bandMember {
+  color: white;
+  text-align: center;
+}
+.bandMember img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+/*Image Gallery*/
+.gallery {
+  padding: 80px 0px;
+  height: 1000px;
+  background: url("../images/images/mountain.jpg") center no-repeat;
+  background-size: cover;
+}
+.gallery h1 {
+  font-size: 64px;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+.gallery h2 {
+  font-size: 20px;
+  color: white;
+}
+.gallery h2 a {
+  color: white;
+}
+.ImageContainer {
+  max-width: 1000px;
+  height: 700px;
+  margin: 5% auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  overflow: hidden;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px #222;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.text-center {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 14px;
+}
+.lightbox-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.lightbox-gallery :hover {
+  border: solid white;
+}
+.lightbox-gallery div > img {
+  height: 200px;
+  width: 200px;
+  display: block;
+}
+.lightbox-gallery div {
+  margin: 10px;
+  flex-basis: 180px;
+}
+@media only screen and (max-width: 480px) {
+  .lightbox-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+  .lightbox > div {
+    margin-bottom: 10px;
+  }
+}
+/*Lighbox CSS*/
+.lightbox {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+.lightbox img {
+  display: block;
+  margin: auto;
+  height: auto;
+  width: 500px;
+}
+.lightbox .caption {
+  margin: 15px auto;
+  width: 50%;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #eee;
+}
+footer {
+  height: 75px;
+  background-color: black;
+  padding-top: 20px;
+}
