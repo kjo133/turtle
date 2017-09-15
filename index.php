@@ -47,21 +47,24 @@
           <br />
             <div class="row">
               <div class="col-sm-3 bandMember">
+                <h3>Kevin Olson</h3>
+                <h4>Lead Guitar & Vocals</h4>
+                <img src="images/kevin.jpg">
+              </div>
+              <div class="col-sm-3 bandMember">
                 <h3>Justin Johnson</h3>
                 <h4>Bass & Vocals</h4>
                 <img src="images/justin.jpg">
               </div>
               <div class="col-sm-3 bandMember">
-                <h3>Kevin Olson</h3>
-                <h4>Lead Guitar & Vocals</h4>
-              </div>
-              <div class="col-sm-3 bandMember">
                 <h3>Kevin Ralph</h3>
                 <h4>Drums</h4>
+                <img src="images/kevinr.jpg">
               </div>
               <div class="col-sm-3 bandMember">
                 <h3>Glen Nuenighoff</h3>
                 <h4>Rhythm Guitar</h4>
+                <img src="images/glen.jpg">
               </div>
 
             </div>
@@ -70,30 +73,45 @@
        </div>
      </section>
 
-<!-- Photo Gallery -->
-     <section class="gallery">
-     	<div class="wrapper" id="gallery">
-     		<h1>Adventure Gallery</h1>
-          <div class="ImageContainer">
-            <h2 class="text-center">Check out these awesome views and epic adventures taken by all of our Mountain Air Addix.  <br/> Send us your latest and greatest conquests at <a href='#'>mountainairaddix@gmail.com </a></h2>
-            <div class="lightbox-gallery">
+     <section class="ourStuff">
+       <div class="wrapper row" id="ourStuff">
+         <div class="medium-12 column">
+          <h1>Our Music</h1>
+          <div class="row">
+            <div class="col-lg-6" id="videos">
+              <h3>Videos</h3>
+              <br />
+              <iframe width="460" height="215" src="https://www.youtube.com/embed/2kQ91HbRmlA" frameborder="0" allowfullscreen></iframe>
+              <iframe width="460" height="215" src="https://www.youtube.com/embed/PwZwMHHgUcg" frameborder="0" allowfullscreen></iframe>
+              <iframe width="460" height="215" src="https://www.youtube.com/embed/HVIAeI4O8jw" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-6" id="gallery" style="border: solid red;">
+              <h3>Photos</h3>
+            <div class="ImageContainer">
+              <div class="lightbox-gallery">
                 <?php  
-                  $dirname = "images/images/";
-                  $images = glob($dirname."*.JPG");
+                  $dirname = "images/";
+                  $images = glob($dirname."*.jpg");
                   foreach ($images as $image) {
                     echo '<div><img src="'.$image.'" /></div>';
                   }
                 ?>         
+              </div>
+             </div> 
             </div>
+          </div>
+           
          </div>
-     	</div>
+       </div>
      </section>
 
 <!-- FOOTER -->
   <footer>
+  <h1>The Sprinting Turtles</h1>
     <div class="container text-center">
-      <a target="_blank" href="https://www.instagram.com/ma_addix/"><i class="fa fa-2x fa-instagram"></i></a> &nbsp
-      <a target="_blank" href="https://www.youtube.com/channel/UCEjYZO3Mw_voTiDboWBl7Sg"><i class="fa fa-2x fa-youtube"></i></a>
+
+    <!--   <a target="_blank" href="https://www.instagram.com/ma_addix/"><i class="fa fa-2x fa-instagram"></i></a> &nbsp
+      <a target="_blank" href="https://www.youtube.com/channel/UCEjYZO3Mw_voTiDboWBl7Sg"><i class="fa fa-2x fa-youtube"></i></a> -->
     </div>
   </footer>
 

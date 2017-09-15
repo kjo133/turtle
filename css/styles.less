@@ -3,7 +3,11 @@ html {
   height: 100%;
   margin: 0;
 }
-
+h1, h3{
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+  text-align: center;
+}
 .navbar-brand{
 	padding: 0px;
 }
@@ -113,6 +117,20 @@ html {
   }
 }
 
+.ourStuff{
+  height: 900px;
+  background: url(../images/turtleOrig.jpg) center no-repeat;
+  background-size: cover;
+  h3{
+
+  }
+}
+
+#videos{
+  overflow-y: scroll;
+  height: 650px;
+}
+
 /*Image Gallery*/
 .gallery {
   padding: 80px 0px;
@@ -159,20 +177,20 @@ html {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  :hover{
+  img:hover{
   	border: solid white;
   }
 }
 
 .lightbox-gallery div > img {
- height: 200px;
- width: 200px;
+ height: 100px;
+ width: 100px;
   display: block;
 }
 
 .lightbox-gallery div {
   margin: 10px;
-  flex-basis: 180px;
+  flex-basis: 100px;
 }
 
 @media only screen and (max-width: 480px) {
