@@ -2,19 +2,24 @@ body,
 html {
   height: 100%;
   margin: 0;
+  background-color: black;
 }
+
 h1, h3{
   font-family: 'Permanent Marker', cursive;
   color: white;
   text-align: center;
+}
+.navbar {
+  border: 0 !important;
 }
 .navbar-brand{
 	padding: 0px;
 }
 .navbar-brand>img{
 	height: 100%;
-  	padding: 15px;
-  	width: auto;
+  padding: 15px;
+  width: auto;
   	
 }
 .navbar{
@@ -25,14 +30,27 @@ h1, h3{
   height: 75px;
 }
 
-.nav >li >a {
+.nav li a {
   padding-top: 30px;
   padding-bottom: 30px;
+  color: white;
 }
  .navbar-toggle {
   padding: 10px;
   margin: 25px 15px 25px 0;
 }
+
+nav{
+  li{
+    color: white;
+    img{
+      height: 80px;
+      width: 80px;
+    }
+  }
+}
+
+
 
 
 .wrapper {
@@ -53,10 +71,9 @@ h1, h3{
 
 }
 #heroLogo {
-  width: 700px;
+  width: 100%;
   margin: 0 auto;
-  padding-top: 20px;
-  border: solid blue;
+  padding-top: 420px;
   img{
   	height: 100%;
   	width: 100%;
@@ -68,10 +85,10 @@ h1, h3{
      transition-duration: .3s;
   }*/
   h1{
-    border: solid blue;
+    width: 100%;
   	color: white;
   	text-align: center;
-    font-size: 64px;
+    font-size: 5vw;
   	font-family: 'Permanent Marker', cursive;
   }
 }
@@ -121,14 +138,12 @@ h1, h3{
   height: 900px;
   background: url(../images/turtleOrig.jpg) center no-repeat;
   background-size: cover;
-  h3{
-
-  }
+  overflow-y: scroll;
 }
 
 #videos{
   overflow-y: scroll;
-  height: 650px;
+  height: 1000px;
 }
 
 /*Image Gallery*/
@@ -154,7 +169,7 @@ h1, h3{
 }
 .ImageContainer{
 	max-width: 1000px;
-	height: 700px;
+	height: 650px;
 	margin: 5% auto;
 	padding: 20px;
 	background-color: rgba(0,0,0,0.7);
@@ -183,8 +198,8 @@ h1, h3{
 }
 
 .lightbox-gallery div > img {
- height: 100px;
- width: 100px;
+ height: 200px;
+ width: 200px;
   display: block;
 }
 
