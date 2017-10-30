@@ -88,7 +88,6 @@
           <br />
             September 3, 2018 : Private Event
           </p>
-
          </div>
        </div>
      </section>
@@ -101,9 +100,9 @@
             <div class="col-lg-6" id="videos">
               <h3>Videos</h3>
               <br />
-              <iframe width="460" height="215" src="https://www.youtube.com/embed/2kQ91HbRmlA" frameborder="0" allowfullscreen></iframe>
-              <iframe width="460" height="215" src="https://www.youtube.com/embed/PwZwMHHgUcg" frameborder="0" allowfullscreen></iframe>
+              <iframe width="460" height="215" src="https://www.youtube.com/embed/6JlxyBWugdU" frameborder="0" allowfullscreen></iframe>
               <iframe width="460" height="215" src="https://www.youtube.com/embed/HVIAeI4O8jw" frameborder="0" allowfullscreen></iframe>
+              <iframe width="460" height="215" src="https://www.youtube.com/embed/yuDwH_NBpWQ" frameborder="0" allowfullscreen></iframe>
             </div>
             <div class="col-lg-6" id="gallery">
               <h3>Photos</h3>
