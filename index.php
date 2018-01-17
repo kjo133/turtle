@@ -28,13 +28,13 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-
             <li><img src="images/logo2.jpg"></li>
             <li><a href="#">The Sprinting Turtles</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#about">About</a></li>
             <li><a href="#ourStuff">Music</a></li>
+            <li><a href="#schedule">Schedule</a></li>
             <li><a target="_blank" href="https://www.instagram.com/thesprintingturtles/"><i class="fa fa-lg fa-instagram"></i></a></li>
             <li><a target="_blank" href="https://www.facebook.com/thesprintingturtles" ><i class="fa fa-lg fa-facebook"></i></a></li>
             
@@ -57,36 +57,43 @@
           <p>We are The Sprinting Turtles <br /> Rock band from Washington DC.  Check out our music and who we are!</p>
           <br />
             <div class="row">
-              <div class="col-sm-3 bandMember">
+              <div class="col-sm-4 bandMember">
                 <a href="http://www.kevinjolson.com"><h3>Kevin Olson</h3></a>
                 <h4>Lead Guitar & Vocals</h4>
                 <a href="http://www.kevinjolson.com"><img src="images/kevin.jpg"></a>
               </div>
-              <div class="col-sm-3 bandMember">
+              <div class="col-sm-4 bandMember">
                 <h3>Justin Johnson</h3>
                 <h4>Bass & Vocals</h4>
                 <img src="images/justin.jpg">
               </div>
-              <div class="col-sm-3 bandMember">
+              <div class="col-sm-4 bandMember">
                 <h3>Kevin Ralph</h3>
                 <h4>Drums and Bag Pipes</h4>
                 <img src="images/kevinr.jpg">
               </div>
-              <div class="col-sm-3 bandMember">
+            <!--   <div class="col-sm-3 bandMember">
                 <h3>Glen Nuenighoff</h3>
                 <h4>Rhythm Guitar</h4>
                 <img src="images/glen.jpg">
-              </div>
+              </div> -->
 
             </div>
             <br />
             <br />
             <br />
             <br />
-            <h1>Schedule</h1>
-          <p>October 27 : Private Event
-          <br />
-            September 3, 2018 : Private Event
+            <h1 id="schedule">Schedule</h1>
+            <p>
+            January 5 : Gypsy Sallys - Vinyl Lounge
+              <br />
+            January 27 : Tysons Biergarten
+              <br />
+            February 9 : Auld Shebeen
+              <br />
+            February 25 : Jammin' Java - Relay for Life Event
+              <br />
+            September 3 : Private Event
           </p>
          </div>
        </div>
@@ -99,10 +106,20 @@
           <div class="row">
             <div class="col-lg-6" id="videos">
               <h3>Videos</h3>
-              <br />
-              <iframe width="460" height="215" src="https://www.youtube.com/embed/6JlxyBWugdU" frameborder="0" allowfullscreen></iframe>
-              <iframe width="460" height="215" src="https://www.youtube.com/embed/HVIAeI4O8jw" frameborder="0" allowfullscreen></iframe>
-              <iframe width="460" height="215" src="https://www.youtube.com/embed/yuDwH_NBpWQ" frameborder="0" allowfullscreen></iframe>
+              <div class="ImageContainer">
+                <br />
+                <video width="460" controls>
+                  <source src="images/video/Semi.mp4" type="video/mp4">
+                  Your browser does not support HTML5 video.
+                </video>
+                <video width="460" controls>
+                  <source src="images/video/SmallThings.mp4" type="video/mp4">
+                  Your browser does not support HTML5 video.
+                </video>
+                <iframe width="460" height="215" src="https://www.youtube.com/embed/6JlxyBWugdU" frameborder="0" allowfullscreen></iframe>
+                <iframe width="460" height="215" src="https://www.youtube.com/embed/HVIAeI4O8jw" frameborder="0" allowfullscreen></iframe>
+                <iframe width="460" height="215" src="https://www.youtube.com/embed/yuDwH_NBpWQ" frameborder="0" allowfullscreen></iframe>
+              </div>
             </div>
             <div class="col-lg-6" id="gallery">
               <h3>Photos</h3>
