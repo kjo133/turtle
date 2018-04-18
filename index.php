@@ -85,15 +85,26 @@
             <br />
             <h1 id="schedule">Schedule</h1>
             <p>
-            January 5 : Gypsy Sallys - Vinyl Lounge
+            May 5: TYSONS BIERGARTEN!
               <br />
-            January 27 : Tysons Biergarten
+            May 11 : Cowboy Cafe
               <br />
-            February 9 : Auld Shebeen
-              <br />
-            February 25 : Jammin' Java - Relay for Life Event
-              <br />
+            July 13: Westover Beer Garden
+              <br/>
             September 3 : Private Event
+              <br />
+            December 8: Paradise Springs Winery
+              <br />
+              <br />
+            PAST VENUES
+            <br/>
+              Gypsy Sallys
+              <br/>
+              Tysons Biergarten
+              <br/>
+              Auld Shebeen
+              <br/>
+              Jammin Java
           </p>
          </div>
        </div>
@@ -108,16 +119,12 @@
               <h3>Videos</h3>
               <div class="ImageContainer">
                 <br />
-                <video width="460" controls>
-                  <source src="images/video/Semi.mp4" type="video/mp4">
-                  Your browser does not support HTML5 video.
-                </video>
-                <video width="460" controls>
-                  <source src="images/video/SmallThings.mp4" type="video/mp4">
-                  Your browser does not support HTML5 video.
-                </video>
+                <iframe width="460" height="315" src="https://www.youtube.com/embed/AfZqsJerlwY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <iframe width="460" height="315" src="https://www.youtube.com/embed/FGBDDIWuTlY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <iframe width="460" height="315" src="https://www.youtube.com/embed/Vs1p_t_uXqs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <iframe width="460" height="315" src="https://www.youtube.com/embed/fwS6Zc9zxfk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+               
                 <iframe width="460" height="215" src="https://www.youtube.com/embed/6JlxyBWugdU" frameborder="0" allowfullscreen></iframe>
-                <iframe width="460" height="215" src="https://www.youtube.com/embed/HVIAeI4O8jw" frameborder="0" allowfullscreen></iframe>
                 <iframe width="460" height="215" src="https://www.youtube.com/embed/yuDwH_NBpWQ" frameborder="0" allowfullscreen></iframe>
               </div>
             </div>
