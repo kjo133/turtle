@@ -91,6 +91,10 @@
               <br />
             July 13: Westover Beer Garden
               <br/>
+            July 28: TYSONS BIERGARTEN!
+              <br/>
+            August 18: Arlington County Fair | 3:45pm - 4:30pm
+              <br/>
             September 3 : Private Event
               <br />
             December 8: Paradise Springs Winery
@@ -119,6 +123,8 @@
               <h3>Videos</h3>
               <div class="ImageContainer">
                 <br />
+                <iframe width="460" height="315" src="https://www.youtube.com/embed/vETbU434nG0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <iframe width="460" height="315" src="https://www.youtube.com/embed/PikkLJDds8o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 <iframe width="460" height="315" src="https://www.youtube.com/embed/AfZqsJerlwY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 <iframe width="460" height="315" src="https://www.youtube.com/embed/FGBDDIWuTlY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 <iframe width="460" height="315" src="https://www.youtube.com/embed/Vs1p_t_uXqs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
