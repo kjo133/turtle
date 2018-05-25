@@ -15,7 +15,7 @@
 
   <body>
  
-    <nav class="navbar navbar-default navbar-fixed-top">
+<!--     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -39,9 +39,22 @@
             <li><a target="_blank" href="https://www.facebook.com/thesprintingturtles" ><i class="fa fa-lg fa-facebook"></i></a></li>
             
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
-    </nav>
+    </nav> -->
+    <div id="nav-trigger" class="nav-trigger open" style="z-index: 999;">
+    <span class="line"></span>
+    <span class="line"></span>
+    <span class="line"></span>
+  </div>
+  <nav id="nav" class="out">
+    <ul>
+      <li><a href="#about" class="nav-label">Home</a></li>
+      <li><span class="nav-label">The Band</span></li>
+      <li><span class="nav-label">Schedule</span></li>
+      <li><span class="nav-label">Video & Photos</span></li>
+    </ul>
+  </nav>
 
    <!--   HERO SECTION -->
      <div class="hero">
@@ -72,11 +85,6 @@
                 <h4>Drums and Bag Pipes</h4>
                 <img src="images/kevinr.jpg">
               </div>
-            <!--   <div class="col-sm-3 bandMember">
-                <h3>Glen Nuenighoff</h3>
-                <h4>Rhythm Guitar</h4>
-                <img src="images/glen.jpg">
-              </div> -->
 
             </div>
             <br />
@@ -159,6 +167,7 @@
     <script src="js/vendor/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/lightbox.js"></script>
+    <script src="js/hamburger.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>

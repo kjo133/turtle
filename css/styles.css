@@ -10,38 +10,112 @@ h3 {
   color: white;
   text-align: center;
 }
-.navbar {
-  border: 0 !important;
+/*MENU*/
+/*Hamburger Part*/
+.nav-trigger {
+  position: fixed;
+  width: 110px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+  z-index: 200;
 }
-.navbar-brand {
-  padding: 0px;
+.nav-trigger.open {
+  background: transparent;
 }
-.navbar-brand > img {
+.nav-trigger.close {
+  background: transparent;
+}
+.line {
+  display: block;
+  position: absolute;
+  width: 80px;
+  height: 8px;
+  background: #222;
+  left: 15px;
+  transition: opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0s, transform 0.24s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+.line:nth-child(1) {
+  top: 16px;
+}
+.line:nth-child(2) {
+  top: 44px;
+}
+.line:nth-child(3) {
+  top: 72px;
+}
+.close .line:nth-child(1) {
+  transform: translateY(25px) rotate(45deg);
+  background: #fff;
+}
+.close .line:nth-child(2) {
+  opacity: 0;
+}
+.close .line:nth-child(3) {
+  transform: translateY(-31px) rotate(-45deg);
+  background: #fff;
+}
+/*NAV BAR Part*/
+nav {
+  width: 100%;
   height: 100%;
-  padding: 15px;
-  width: auto;
+  position: fixed;
+  z-index: 10;
 }
-.navbar {
-  margin-bottom: 0;
+nav.out {
+  pointer-events: none;
 }
-.navbar-brand {
-  height: 75px;
+nav.in {
+  pointer-events: auto;
 }
-.nav li a {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  color: white;
+nav ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
-.navbar-toggle {
-  padding: 10px;
-  margin: 25px 15px 25px 0;
+nav ul {
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 nav li {
-  color: white;
+  height: 20%;
+  position: relative;
+  background-color: #222;
+  color: #fff;
 }
-nav li img {
-  height: 80px;
-  width: 80px;
+nav li:hover {
+  background: #333;
+}
+nav.in li {
+  transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.1s, opacity 0.5s linear 0.1s;
+}
+nav.out li {
+  transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.1s, opacity 0.5s linear 0.1s;
+}
+/*nav.in li:nth-child(1){
+  transition: transform 0.5s cubic-bezier()
+}
+*/
+nav.out li {
+  transform: translateY(-500%);
+  opacity: 0;
+}
+nav.in li {
+  transform: translateY(0);
+  opacity: 1;
+}
+.nav-label {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  height: 16px;
+  top: 50%;
+  margin-top: -8px;
+  font-size: 30px;
 }
 .wrapper {
   width: 90%;
