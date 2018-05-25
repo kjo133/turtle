@@ -49,10 +49,10 @@
   </div>
   <nav id="nav" class="out">
     <ul>
-      <li><a href="#about" class="nav-label">Home</a></li>
-      <li><span class="nav-label">The Band</span></li>
-      <li><span class="nav-label">Schedule</span></li>
-      <li><span class="nav-label">Video & Photos</span></li>
+      <li><a href="#heroLogo" class="nav-label">Home</a></li>
+      <li><a href="#about" class="nav-label">The Band</a></li>
+      <li><a href="#schedule" class="nav-label">Schedule</a></li>
+      <li><a href="#ourstuff" class="nav-label">Video & Photos</a></li>
     </ul>
   </nav>
 
@@ -67,7 +67,7 @@
        <div class="wrapper row">
          <div class="medium-12 column">
           <h1>ABOUT</h1>
-          <p>We are The Sprinting Turtles <br /> Rock band from Washington DC.  Check out our music and who we are!</p>
+          <p>We are The Sprinting Turtles <br /> Rock band from Washington DC.  The band was formed while Kevin and Justin were studying at Virginia Tech.  We had a blast playing live music at house parties.  After graduating Justin and Kevin moved to the Washington DC area and wanted to continue to play music.  We still bring the same goofy energy to our shows today and it is always a blast getting the crowd involved and singing along with us.  Check out our music and who we are!</p>
           <br />
             <div class="row">
               <div class="col-sm-4 bandMember">
@@ -123,44 +123,13 @@
      </section>
 
      <section class="ourStuff">
-       <div class="wrapper row" id="ourStuff">
-         <div class="medium-12 column">
-          <h1>Our Music</h1>
-          <div class="row">
-            <div class="col-lg-6" id="videos">
-              <h3>Videos</h3>
-              <div class="ImageContainer">
-                <br />
-                <iframe width="460" height="315" src="https://www.youtube.com/embed/vETbU434nG0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                <iframe width="460" height="315" src="https://www.youtube.com/embed/PikkLJDds8o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                <iframe width="460" height="315" src="https://www.youtube.com/embed/AfZqsJerlwY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                <iframe width="460" height="315" src="https://www.youtube.com/embed/FGBDDIWuTlY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                <iframe width="460" height="315" src="https://www.youtube.com/embed/Vs1p_t_uXqs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                <iframe width="460" height="315" src="https://www.youtube.com/embed/fwS6Zc9zxfk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-               
-                <iframe width="460" height="215" src="https://www.youtube.com/embed/6JlxyBWugdU" frameborder="0" allowfullscreen></iframe>
-                <iframe width="460" height="215" src="https://www.youtube.com/embed/yuDwH_NBpWQ" frameborder="0" allowfullscreen></iframe>
-              </div>
-            </div>
-            <div class="col-lg-6" id="gallery">
-              <h3>Photos</h3>
-            <div class="ImageContainer">
-              <div class="lightbox-gallery">
-                <?php  
-                  $dirname = "images/gallery/";
-                  $images = glob($dirname."*.jpg");
-                  foreach ($images as $image) {
-                    echo '<div><img src="'.$image.'" /></div>';
-                  }
-                ?>         
-              </div>
-             </div> 
-            </div>
-          </div>
-           
+        <div class="mediaContainer">
+         <div>
+          <h1>Videos</h1>
          </div>
-       </div>
-
+         <div>
+           <h1>Photos</h1>
+         </div>
      </section>
 <!-- FOOTER -->
 
@@ -175,7 +144,7 @@
     <script src="js/lightbox.js"></script>
     <script src="js/hamburger.js"></script>
     <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
+   <!--  <script src="js/vendor/foundation.js"></script> -->
     <script src="js/app.js"></script>
   </body>
 </html>

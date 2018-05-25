@@ -156,7 +156,7 @@ nav.in li {
 }
 .main {
   padding: 80px 0px;
-  height: 700px;
+  height: 1300px;
   background-color: black;
   overflow-y: scroll;
 }
@@ -193,14 +193,28 @@ nav.in li {
   border: 2px solid white;
 }
 .ourStuff {
-  height: 900px;
-  background: url(../images/turtleOrig.jpg) center no-repeat;
+  height: 1000px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../images/jj1.jpg) center no-repeat;
   background-size: cover;
   overflow-y: scroll;
 }
 #videos {
   overflow-y: scroll;
   height: 1000px;
+}
+.mediaContainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 900px;
+  border: solid blue;
+}
+.mediaContainer > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: #ffeead;
+  border: solid red;
 }
 /*Image Gallery*/
 .gallery {
