@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'toronto-bluejays';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Toronto-BlueJays'), url('TorontoBlueJaysWilson.otf') format('otf');
+}
 body,
 html {
   height: 100%;
@@ -31,7 +37,7 @@ h3 {
   position: absolute;
   width: 80px;
   height: 8px;
-  background: #222;
+  background: #fff;
   left: 15px;
   transition: opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0s, transform 0.24s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
@@ -202,19 +208,33 @@ nav.in li {
   overflow-y: scroll;
   height: 1000px;
 }
-.mediaContainer {
+/*.mediaContainer{
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 900px;
   border: solid blue;
 }
 .mediaContainer > div {
-  display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #ffeead;
+    border:solid red;
+}
+*/
+.mediaContainer {
+  height: 800px;
+  width: 90%;
+  margin: 0 auto;
   justify-content: center;
   align-items: center;
-  font-size: 2em;
-  color: #ffeead;
-  border: solid red;
+  text-align: center;
+  overflow-y: scroll;
+}
+.mediaContainer iframe {
+  display: inline-block;
+  padding: 30px;
 }
 /*Image Gallery*/
 .gallery {

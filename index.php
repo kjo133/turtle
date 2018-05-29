@@ -122,14 +122,18 @@
        </div>
      </section>
 
-     <section class="ourStuff">
-        <div class="mediaContainer">
-         <div>
-          <h1>Videos</h1>
-         </div>
-         <div>
+    <section class="ourStuff">
+      <h1>Videos</h1>
+      <div class="mediaContainer">   
+        <iframe width="460" height="315" src="https://www.youtube.com/embed/vETbU434nG0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="460" height="315" src="https://www.youtube.com/embed/PikkLJDds8o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="460" height="315" src="https://www.youtube.com/embed/AfZqsJerlwY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="460" height="315" src="https://www.youtube.com/embed/FGBDDIWuTlY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="460" height="315" src="https://www.youtube.com/embed/Vs1p_t_uXqs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="460" height="315" src="https://www.youtube.com/embed/fwS6Zc9zxfk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+         <!-- <div>
            <h1>Photos</h1>
-         </div>
+         </div> -->
      </section>
 <!-- FOOTER -->
 
@@ -145,6 +149,6 @@
     <script src="js/hamburger.js"></script>
     <script src="js/vendor/what-input.js"></script>
    <!--  <script src="js/vendor/foundation.js"></script> -->
-    <script src="js/app.js"></script>
+    <!-- <script src="js/app.js"></script> -->
   </body>
 </html>
