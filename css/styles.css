@@ -222,6 +222,7 @@ nav.in li {
   padding: 30px;
 }
 .galleryContainer {
+  margin-top: 40px;
   display: grid;
   grid-gap: 5px;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
