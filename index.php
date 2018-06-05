@@ -124,16 +124,22 @@
 
     <section class="ourStuff">
       <h1>Videos</h1>
-      <div class="mediaContainer">   
+      <div class="mediaContainer" style="border: solid blue;">   
         <iframe width="460" height="315" src="https://www.youtube.com/embed/vETbU434nG0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <iframe width="460" height="315" src="https://www.youtube.com/embed/PikkLJDds8o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <iframe width="460" height="315" src="https://www.youtube.com/embed/AfZqsJerlwY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <iframe width="460" height="315" src="https://www.youtube.com/embed/FGBDDIWuTlY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <iframe width="460" height="315" src="https://www.youtube.com/embed/Vs1p_t_uXqs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <iframe width="460" height="315" src="https://www.youtube.com/embed/fwS6Zc9zxfk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-         <!-- <div>
-           <h1>Photos</h1>
-         </div> -->
+      </div>
+      <div class="galleryContainer">
+        <div><img src="images/gallery/tbg.jpg"/></div>
+        <div><img src="images/gallery/tbg2.jpg"/></div>
+        <div><img src="images/gallery/tbg3.jpg"/></div>
+        <div><img src="images/gallery/ags.jpg"></div>
+        <div><img src="images/gallery/ags2.jpg"></div>
+        <div><img src="images/gallery/ags3.JPG"></div>
+      </div>
      </section>
 <!-- FOOTER -->
 
