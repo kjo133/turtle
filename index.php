@@ -67,7 +67,7 @@
        <div class="wrapper row">
          <div class="medium-12 column">
           <h1>ABOUT</h1>
-          <p>We are The Sprinting Turtles <br /> Rock band from Washington DC.  The band was formed while Kevin and Justin were studying at Virginia Tech.  We had a blast playing live music at house parties.  After graduating Justin and Kevin moved to the Washington DC area and wanted to continue to play music.  We still bring the same goofy energy to our shows today and it is always a blast getting the crowd involved and singing along with us.  Check out our music and who we are!</p>
+          <p>We are The Sprinting Turtles! <br /> Rock band from Washington DC.  The band was formed while Kevin and Justin were studying at Virginia Tech.  We had a blast playing live music at house parties.  After graduating Justin and Kevin moved to the Washington DC area and wanted to continue to play music.  We still bring the same goofy energy to our shows today and it is always a blast getting the crowd involved and singing along with us.  Check out our music and who we are!</p>
           <br />
             <div class="row">
               <div class="col-sm-4 bandMember">
@@ -93,18 +93,14 @@
             <br />
             <h1 id="schedule">Schedule</h1>
             <p>
-            May 5: TYSONS BIERGARTEN!
-              <br />
-            May 11 : Cowboy Cafe
-              <br />
-            July 13: Westover Beer Garden
-              <br/>
-            July 28: TYSONS BIERGARTEN!
-              <br/>
             August 18: Arlington County Fair | 3:45pm - 4:30pm
+              <br/>
+            August 25: Tysons Biergarten
               <br/>
             September 3 : Private Event
               <br />
+            September 30 : Boomerang Pirate Ship
+              <br/>
             December 8: Paradise Springs Winery
               <br />
               <br />
@@ -117,6 +113,10 @@
               Auld Shebeen
               <br/>
               Jammin Java
+              <br/>
+              Cowboy Cafe
+              <br/>
+              Westover Beer Garden
           </p>
          </div>
        </div>
@@ -124,7 +124,7 @@
 
     <section class="ourStuff">
       <h1>Videos</h1>
-      <div class="mediaContainer" style="border: solid blue;">   
+      <div class="mediaContainer">   
         <iframe width="460" height="315" src="https://www.youtube.com/embed/vETbU434nG0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <iframe width="460" height="315" src="https://www.youtube.com/embed/PikkLJDds8o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <iframe width="460" height="315" src="https://www.youtube.com/embed/AfZqsJerlwY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -132,15 +132,28 @@
         <iframe width="460" height="315" src="https://www.youtube.com/embed/Vs1p_t_uXqs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <iframe width="460" height="315" src="https://www.youtube.com/embed/fwS6Zc9zxfk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
-      <div class="galleryContainer" >
+<!--       <div class="galleryContainer" >
         <div><img src="images/gallery/tbg.jpg"/></div>
         <div class="horizontal"><img src="images/gallery/tbg2.jpg"/></div>
         <div class="horizontal"><img src="images/gallery/tbg3.jpg"/></div>
         <div class="big"><img src="images/gallery/ags.jpg"></div>
         <div class="horizontal"><img src="images/gallery/ags2.jpg"></div>
         <div class="horizontal"><img src="images/gallery/ags3.JPG"></div>
-      </div>
+      </div> -->
      </section>
+    <section class="gallery">
+      <div class="galleryWrapper">
+        <div class="ImageContainer" id="gallery">
+          <a href="images/gallery/1featuredWestover.jpg" data-lightbox="example-set"><img class="verticalImage" src="images/gallery/1featuredWestover.jpg"></a>
+          <a href="images/gallery/2featuredJJ1.jpg" data-lightbox="example-set"><img src="images/gallery/2featuredJJ1.jpg"></a>
+          <a href="images/gallery/3featuredGypsy.jpg" data-lightbox="example-set"><img src="images/gallery/3featuredGypsy.jpg"></a>
+        
+         
+          
+
+        </div>
+      </div>  
+    </section>
 <!-- FOOTER -->
 
   <footer>
@@ -148,13 +161,19 @@
   </footer>
 
 
-
-    <script src="js/vendor/jquery.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <!-- <script src="js/vendor/jquery.js"></script> -->
     <script src="js/bootstrap.js"></script>
-    <script src="js/lightbox.js"></script>
+    <!-- <script src="js/lightbox.js"></script> -->
     <script src="js/hamburger.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-   <!--  <script src="js/vendor/foundation.js"></script> -->
-    <!-- <script src="js/app.js"></script> -->
+   
+    <script>
+      lightbox.option({
+        'disableScrolling': true,
+        'alwaysShowNavOnTouchDevices' : true,
+        'wrapAround' : true
+
+      });
+    </script>
   </body>
 </html>
