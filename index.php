@@ -123,7 +123,7 @@
        </div>
      </section>
 
-    <section class="ourStuff">
+    <section class="ourStuff" id="ourstuff">
       <h1>Videos</h1>
       <div class="mediaContainer">   
         <iframe width="460" height="315" src="https://www.youtube.com/embed/vETbU434nG0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -148,7 +148,7 @@
         <div class="ImageContainer" id="gallery">
           <a href="images/gallery/1featuredWestover.jpg" data-lightbox="example-set" class="horizontalImage"><img  src="images/gallery/1featuredWestover.jpg"></a>
           <a href="images/gallery/2featuredJJ1.jpg" data-lightbox="example-set" class="verticalImage"><img src="images/gallery/2featuredJJ1.jpg"></a>
-          <a href="images/gallery/3featuredGypsy.jpg" data-lightbox="example-set" class="horizontalImage"><img src="images/gallery/3featuredGypsy.jpg"></a>
+          <a href="images/gallery/3featuredGypsy.JPG" data-lightbox="example-set" class="horizontalImage"><img src="images/gallery/3featuredGypsy.JPG"></a>
           <a href="images/gallery/house1.jpg" data-lightbox="example-set"><img src="images/gallery/house1.jpg"></a>
           <a href="images/gallery/westover2.3.jpg" data-lightbox="example-set"><img src="images/gallery/westover2.3.jpg"></a>
           <a href="images/gallery/jammin1.jpg" data-lightbox="example-set"><img src="images/gallery/jammin1.jpg"></a>

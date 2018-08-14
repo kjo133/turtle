@@ -68,6 +68,12 @@ nav {
   position: fixed;
   z-index: 10;
 }
+nav a {
+  color: white;
+}
+nav a:hover {
+  color: white;
+}
 nav.out {
   pointer-events: none;
 }
