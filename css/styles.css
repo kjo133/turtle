@@ -240,16 +240,6 @@ nav.in li {
   height: 100;
   object-fit: cover;
 }
-.horizontal {
-  grid-column: span 2;
-}
-.vertical {
-  grid-row: span 2;
-}
-.big {
-  grid-column: span 2;
-  grid-row: span 2;
-}
 /*Image Gallery*/
 .gallery {
   padding: 80px 0px;
@@ -294,7 +284,6 @@ nav.in li {
   object-fit: cover;
 }
 .horizontalImage {
-  border: solid red;
   grid-column: span 2;
 }
 .verticalImage {

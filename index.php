@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
   </head>
 
   <body>
@@ -127,6 +128,7 @@
       <div class="mediaContainer">   
         <iframe width="460" height="315" src="https://www.youtube.com/embed/vETbU434nG0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <iframe width="460" height="315" src="https://www.youtube.com/embed/PikkLJDds8o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="460" height="315" src="https://www.youtube.com/embed/43e8y60Sb88" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <iframe width="460" height="315" src="https://www.youtube.com/embed/AfZqsJerlwY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <iframe width="460" height="315" src="https://www.youtube.com/embed/FGBDDIWuTlY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <iframe width="460" height="315" src="https://www.youtube.com/embed/Vs1p_t_uXqs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -144,9 +146,23 @@
     <section class="gallery">
       <div class="galleryWrapper">
         <div class="ImageContainer" id="gallery">
-          <a href="images/gallery/1featuredWestover.jpg" data-lightbox="example-set"><img class="verticalImage" src="images/gallery/1featuredWestover.jpg"></a>
-          <a href="images/gallery/2featuredJJ1.jpg" data-lightbox="example-set"><img src="images/gallery/2featuredJJ1.jpg"></a>
-          <a href="images/gallery/3featuredGypsy.jpg" data-lightbox="example-set"><img src="images/gallery/3featuredGypsy.jpg"></a>
+          <a href="images/gallery/1featuredWestover.jpg" data-lightbox="example-set" class="horizontalImage"><img  src="images/gallery/1featuredWestover.jpg"></a>
+          <a href="images/gallery/2featuredJJ1.jpg" data-lightbox="example-set" class="verticalImage"><img src="images/gallery/2featuredJJ1.jpg"></a>
+          <a href="images/gallery/3featuredGypsy.jpg" data-lightbox="example-set" class="horizontalImage"><img src="images/gallery/3featuredGypsy.jpg"></a>
+          <a href="images/gallery/house1.jpg" data-lightbox="example-set"><img src="images/gallery/house1.jpg"></a>
+          <a href="images/gallery/westover2.3.jpg" data-lightbox="example-set"><img src="images/gallery/westover2.3.jpg"></a>
+          <a href="images/gallery/jammin1.jpg" data-lightbox="example-set"><img src="images/gallery/jammin1.jpg"></a>
+          <a href="images/gallery/westover2.6.jpg" data-lightbox="example-set" class="verticalImage"><img src="images/gallery/westover2.6.jpg"></a>
+          <a href="images/gallery/c3.jpg" data-lightbox="example-set" class="horizontalImage"><img src="images/gallery/c3.jpg"></a>
+          <a href="images/gallery/cowboy2.jpg" data-lightbox="example-set"><img src="images/gallery/cowboy2.jpg"></a>
+          <a href="images/gallery/ags.jpg" data-lightbox="example-set" class="verticalImage"><img src="images/gallery/ags.jpg"></a>
+          <a href="images/gallery/c2.jpg" data-lightbox="example-set"><img src="images/gallery/c2.jpg"></a>
+          <a href="images/gallery/house2.jpg" data-lightbox="example-set"><img src="images/gallery/house2.jpg"></a>
+          <a href="images/gallery/ags2.jpg" data-lightbox="example-set"><img src="images/gallery/ags2.jpg"></a>
+          <a href="images/gallery/westover2.5.jpg" data-lightbox="example-set"><img src="images/gallery/westover2.5.jpg"></a>
+          <a href="images/gallery/tbg5.JPG" data-lightbox="example-set" class="horizontalImage"><img src="images/gallery/tbg5.JPG"></a>
+          <a href="images/gallery/house4.jpg" data-lightbox="example-set"><img src="images/gallery/house4.jpg"></a>
+
         
          
           
