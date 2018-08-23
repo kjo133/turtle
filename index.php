@@ -125,7 +125,8 @@
 
     <section class="ourStuff" id="ourstuff">
       <h1>Videos</h1>
-      <div class="mediaContainer">   
+      <div class="mediaContainer">  
+        <iframe width="460" height="315" src="https://www.youtube.com/embed/RSIIeSKM7Yw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
         <iframe width="460" height="315" src="https://www.youtube.com/embed/vETbU434nG0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <iframe width="460" height="315" src="https://www.youtube.com/embed/PikkLJDds8o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <iframe width="460" height="315" src="https://www.youtube.com/embed/43e8y60Sb88" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -149,8 +150,10 @@
           <a href="images/gallery/1featuredWestover.jpg" data-lightbox="example-set" class="horizontalImage"><img  src="images/gallery/1featuredWestover.jpg"></a>
           <a href="images/gallery/2featuredJJ1.jpg" data-lightbox="example-set" class="verticalImage"><img src="images/gallery/2featuredJJ1.jpg"></a>
           <a href="images/gallery/3featuredGypsy.JPG" data-lightbox="example-set" class="horizontalImage"><img src="images/gallery/3featuredGypsy.JPG"></a>
+          <a href="images/gallery/arlington1.JPG" data-lightbox="example-set"><img src="images/gallery/arlington1.JPG"></a>
           <a href="images/gallery/house1.jpg" data-lightbox="example-set"><img src="images/gallery/house1.jpg"></a>
           <a href="images/gallery/westover2.3.jpg" data-lightbox="example-set"><img src="images/gallery/westover2.3.jpg"></a>
+          <a href="images/gallery/arlington2.JPG" data-lightbox="example-set"><img src="images/gallery/arlington2.JPG"></a>
           <a href="images/gallery/jammin1.jpg" data-lightbox="example-set"><img src="images/gallery/jammin1.jpg"></a>
           <a href="images/gallery/westover2.6.jpg" data-lightbox="example-set" class="verticalImage"><img src="images/gallery/westover2.6.jpg"></a>
           <a href="images/gallery/c3.jpg" data-lightbox="example-set" class="horizontalImage"><img src="images/gallery/c3.jpg"></a>
@@ -159,9 +162,12 @@
           <a href="images/gallery/c2.jpg" data-lightbox="example-set"><img src="images/gallery/c2.jpg"></a>
           <a href="images/gallery/house2.jpg" data-lightbox="example-set"><img src="images/gallery/house2.jpg"></a>
           <a href="images/gallery/ags2.jpg" data-lightbox="example-set"><img src="images/gallery/ags2.jpg"></a>
+          <a href="images/gallery/arlington4.JPG" data-lightbox="example-set" class="horizontalImage"><img src="images/gallery/arlington4.JPG"></a>
           <a href="images/gallery/westover2.5.jpg" data-lightbox="example-set"><img src="images/gallery/westover2.5.jpg"></a>
           <a href="images/gallery/tbg5.JPG" data-lightbox="example-set" class="horizontalImage"><img src="images/gallery/tbg5.JPG"></a>
+          <a href="images/gallery/arlington7.jpg" data-lightbox="example-set" class="verticalImage"><img src="images/gallery/arlington7.jpg"></a>
           <a href="images/gallery/house4.jpg" data-lightbox="example-set"><img src="images/gallery/house4.jpg"></a>
+          <a href="images/gallery/arlington5.jpg" data-lightbox="example-set"><img src="images/gallery/arlington5.jpg"></a>
 
         
          
