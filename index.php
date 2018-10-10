@@ -68,7 +68,7 @@
        <div class="wrapper row">
          <div class="medium-12 column">
           <h1>ABOUT</h1>
-          <p>We are The Sprinting Turtles! <br /> Rock band from Washington DC.  The band was formed while Kevin and Justin were studying at Virginia Tech.  We had a blast playing live music at house parties.  After graduating Justin and Kevin moved to the Washington DC area and wanted to continue to play music.  We still bring the same goofy energy to our shows today and it is always a blast getting the crowd involved and singing along with us.  Check out our music and who we are!</p>
+          <p>We are The Sprinting Turtles! <br /> Rock band from Washington DC formed while Kevin and Justin were studying at Virginia Tech.  We had a blast playing live music at house parties.  After graduating Justin and Kevin moved to the Washington DC area and wanted to continue to play music.  We still bring the same goofy energy to our shows today and it is always a blast getting the crowd involved and singing along with us.  Check out our music and who we are!</p>
           <br />
             <div class="row">
               <div class="col-sm-4 bandMember">
@@ -94,24 +94,24 @@
             <br />
             <h1 id="schedule">Schedule</h1>
             <p>
-            August 18: Arlington County Fair | 3:45pm - 4:30pm
-              <br/>
-            August 25: Tysons Biergarten
-              <br/>
-            September 3 : Private Event
-              <br />
             September 30 : Boomerang Pirate Ship
               <br/>
+            November 17 : Alley Cat
+              <br />
             December 8: Paradise Springs Winery
               <br />
               <br />
             PAST VENUES
-            <br/>
+              <br/>
+              Boomerang Pirate Ship
+              <br />
               Gypsy Sallys
               <br/>
               Tysons Biergarten
               <br/>
               Auld Shebeen
+              <br/>
+              Arlington County Fair
               <br/>
               Jammin Java
               <br/>
@@ -122,8 +122,43 @@
          </div>
        </div>
      </section>
+    <section class="gallery" id="ourstuff">
+      <div class="galleryWrapper">
+        <div class="ImageContainer" id="gallery">
+          <a href="images/gallery/1featuredWestover.jpg" data-lightbox="example-set" class="horizontalImage"><img  src="images/gallery/1featuredWestover.jpg"></a>
+          <a href="images/gallery/2featuredJJ1.jpg" data-lightbox="example-set" class="verticalImage"><img src="images/gallery/2featuredJJ1.jpg"></a>
+          <a href="images/gallery/3featuredGypsy.JPG" data-lightbox="example-set" class="horizontalImage"><img src="images/gallery/3featuredGypsy.JPG"></a>
+          <a href="images/gallery/arlington1.JPG" data-lightbox="example-set"><img src="images/gallery/arlington1.JPG"></a>
+          <a href="images/gallery/pirate2.jpg" data-lightbox="example-set" class="horizontalImage"><img src="images/gallery/pirate2.jpg"></a>
+          <a href="images/gallery/pirate3.jpg" data-lightbox="example-set"><img src="images/gallery/pirate3.jpg"></a>
+          <a href="images/gallery/house1.jpg" data-lightbox="example-set"><img src="images/gallery/house1.jpg"></a>
+          <a href="images/gallery/westover2.3.jpg" data-lightbox="example-set"><img src="images/gallery/westover2.3.jpg"></a>
+          <a href="images/gallery/arlington2.JPG" data-lightbox="example-set"><img src="images/gallery/arlington2.JPG"></a>
+          <a href="images/gallery/jammin1.jpg" data-lightbox="example-set"><img src="images/gallery/jammin1.jpg"></a>
+          <a href="images/gallery/westover2.6.jpg" data-lightbox="example-set" class="verticalImage"><img src="images/gallery/westover2.6.jpg"></a>
+          <a href="images/gallery/pirate1.jpg" data-lightbox="example-set" class="horizontalImage"><img src="images/gallery/pirate1.jpg"></a>
+          <a href="images/gallery/c3.jpg" data-lightbox="example-set" class="horizontalImage"><img src="images/gallery/c3.jpg"></a>
+          <a href="images/gallery/cowboy2.jpg" data-lightbox="example-set"><img src="images/gallery/cowboy2.jpg"></a>
+          <a href="images/gallery/ags.jpg" data-lightbox="example-set" class="verticalImage"><img src="images/gallery/ags.jpg"></a>
+          <a href="images/gallery/pirate4.jpg" data-lightbox="example-set"><img src="images/gallery/pirate4.jpg"></a>
+          <a href="images/gallery/c2.jpg" data-lightbox="example-set"><img src="images/gallery/c2.jpg"></a>
+          <a href="images/gallery/house2.jpg" data-lightbox="example-set"><img src="images/gallery/house2.jpg"></a>
+           <a href="images/gallery/pirate7.jpg" data-lightbox="example-set" class="horizontalImage verticalImage"><img src="images/gallery/pirate7.jpg"></a>
+          <a href="images/gallery/ags2.jpg" data-lightbox="example-set"><img src="images/gallery/ags2.jpg"></a>
+          <a href="images/gallery/pirate5.jpg" data-lightbox="example-set"><img src="images/gallery/pirate5.jpg"></a>
+          <a href="images/gallery/arlington4.JPG" data-lightbox="example-set" class="horizontalImage"><img src="images/gallery/arlington4.JPG"></a>
+          <a href="images/gallery/westover2.5.jpg" data-lightbox="example-set"><img src="images/gallery/westover2.5.jpg"></a>
+          <a href="images/gallery/pirate6.jpg" data-lightbox="example-set" class="verticalImage"><img src="images/gallery/pirate6.jpg"></a>
+          <a href="images/gallery/tbg5.JPG" data-lightbox="example-set" class="horizontalImage"><img src="images/gallery/tbg5.JPG"></a>
+          <a href="images/gallery/arlington7.jpg" data-lightbox="example-set" class="verticalImage"><img src="images/gallery/arlington7.jpg"></a>
+         
+          <a href="images/gallery/house4.jpg" data-lightbox="example-set"><img src="images/gallery/house4.jpg"></a>
+          <a href="images/gallery/arlington5.jpg" data-lightbox="example-set"><img src="images/gallery/arlington5.jpg"></a>
 
-    <section class="ourStuff" id="ourstuff">
+        </div>
+      </div>  
+    </section>
+    <section class="ourStuff" >
       <h1>Videos</h1>
       <div class="mediaContainer">  
         <iframe width="460" height="315" src="https://www.youtube.com/embed/RSIIeSKM7Yw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
@@ -144,38 +179,7 @@
         <div class="horizontal"><img src="images/gallery/ags3.JPG"></div>
       </div> -->
      </section>
-    <section class="gallery">
-      <div class="galleryWrapper">
-        <div class="ImageContainer" id="gallery">
-          <a href="images/gallery/1featuredWestover.jpg" data-lightbox="example-set" class="horizontalImage"><img  src="images/gallery/1featuredWestover.jpg"></a>
-          <a href="images/gallery/2featuredJJ1.jpg" data-lightbox="example-set" class="verticalImage"><img src="images/gallery/2featuredJJ1.jpg"></a>
-          <a href="images/gallery/3featuredGypsy.JPG" data-lightbox="example-set" class="horizontalImage"><img src="images/gallery/3featuredGypsy.JPG"></a>
-          <a href="images/gallery/arlington1.JPG" data-lightbox="example-set"><img src="images/gallery/arlington1.JPG"></a>
-          <a href="images/gallery/house1.jpg" data-lightbox="example-set"><img src="images/gallery/house1.jpg"></a>
-          <a href="images/gallery/westover2.3.jpg" data-lightbox="example-set"><img src="images/gallery/westover2.3.jpg"></a>
-          <a href="images/gallery/arlington2.JPG" data-lightbox="example-set"><img src="images/gallery/arlington2.JPG"></a>
-          <a href="images/gallery/jammin1.jpg" data-lightbox="example-set"><img src="images/gallery/jammin1.jpg"></a>
-          <a href="images/gallery/westover2.6.jpg" data-lightbox="example-set" class="verticalImage"><img src="images/gallery/westover2.6.jpg"></a>
-          <a href="images/gallery/c3.jpg" data-lightbox="example-set" class="horizontalImage"><img src="images/gallery/c3.jpg"></a>
-          <a href="images/gallery/cowboy2.jpg" data-lightbox="example-set"><img src="images/gallery/cowboy2.jpg"></a>
-          <a href="images/gallery/ags.jpg" data-lightbox="example-set" class="verticalImage"><img src="images/gallery/ags.jpg"></a>
-          <a href="images/gallery/c2.jpg" data-lightbox="example-set"><img src="images/gallery/c2.jpg"></a>
-          <a href="images/gallery/house2.jpg" data-lightbox="example-set"><img src="images/gallery/house2.jpg"></a>
-          <a href="images/gallery/ags2.jpg" data-lightbox="example-set"><img src="images/gallery/ags2.jpg"></a>
-          <a href="images/gallery/arlington4.JPG" data-lightbox="example-set" class="horizontalImage"><img src="images/gallery/arlington4.JPG"></a>
-          <a href="images/gallery/westover2.5.jpg" data-lightbox="example-set"><img src="images/gallery/westover2.5.jpg"></a>
-          <a href="images/gallery/tbg5.JPG" data-lightbox="example-set" class="horizontalImage"><img src="images/gallery/tbg5.JPG"></a>
-          <a href="images/gallery/arlington7.jpg" data-lightbox="example-set" class="verticalImage"><img src="images/gallery/arlington7.jpg"></a>
-          <a href="images/gallery/house4.jpg" data-lightbox="example-set"><img src="images/gallery/house4.jpg"></a>
-          <a href="images/gallery/arlington5.jpg" data-lightbox="example-set"><img src="images/gallery/arlington5.jpg"></a>
-
-        
-         
-          
-
-        </div>
-      </div>  
-    </section>
+   
 <!-- FOOTER -->
 
   <footer>

@@ -168,9 +168,9 @@ nav.in li {
 }
 .main {
   padding: 80px 0px;
-  height: 1500px;
-  background-color: black;
-  overflow-y: scroll;
+  height: 1350px;
+  background-color: #111;
+  overflow-y: hidden;
 }
 .main h1 {
   font-size: 64px;
@@ -249,8 +249,8 @@ nav.in li {
 /*Image Gallery*/
 .gallery {
   padding: 80px 0px;
-  height: 1000px;
-  background-color: #222;
+  height: 1400px;
+  background-color: #111;
   background-size: cover;
 }
 .gallery h1 {
@@ -268,7 +268,7 @@ nav.in li {
   color: white;
 }
 .galleryWrapper {
-  height: 800px;
+  height: 1200px;
   overflow-y: scroll;
 }
 .ImageContainer {
