@@ -11,7 +11,6 @@ html {
   margin: 0;
   background-color: black;
 }
-
 h1,
 h3 {
   font-family: "Permanent Marker", cursive;
@@ -226,20 +225,32 @@ nav.in li {
 }
 
 #band {
+  overflow: hidden;
   div {
     position: relative;
     height: 500px;
+    transition: 0.5s;
+    &:hover {
+      transform: scale(1.1);
+      h3 {
+        opacity: 1;
+      }
+    }
     h3 {
       position: absolute;
       left: 0;
       right: 0;
-      bottom: 0;
+      bottom: 50px;
       margin: auto;
       font-size: 40px;
+      opacity: 0;
+      transition: 1.5s;
     }
+
     &:first-child {
       background: url(../images/kevin.jpg) no-repeat center center;
       background-size: cover;
+      transition: all 0.5s;
     }
     &:nth-child(2) {
       background: url(../images/justin2.jpg) no-repeat center top;
