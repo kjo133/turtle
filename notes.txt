@@ -1,0 +1,51 @@
+ABOUT SECTION
+<section class="main" id="about">
+        <div class="wrapper row">
+            <div class="medium-12 column">
+                <h1>ABOUT</h1>
+                <p>We are The Sprinting Turtles! <br /> Rock band from Washington DC formed while Kevin and Justin were studying
+                    at Virginia Tech. After graduating Justin and Kevin moved to the Washington DC area and wanted to continue
+                    to play music. We still bring the same goofy energy to our shows today and it is always a blast getting
+                    the crowd involved and singing along with us. Check out our music and who we are!</p>
+                <br />
+                <div class="row">
+                    <div class="col-sm-6 bandMember">
+                        <a href="http://www.kevinjolson.com">
+                            <h3>Kevin Olson</h3>
+                        </a>
+                        <h4>Lead Guitar & Vocals</h4>
+                        <a href="http://www.kevinjolson.com"><img src="images/kevin.jpg"></a>
+                    </div>
+                    <div class="col-sm-6 bandMember">
+                        <h3>Justin Johnson</h3>
+                        <h4>Bass & Vocals</h4>
+                        <img src="images/justin.jpg">
+                    </div>
+                    <!-- <div class="col-sm-4 bandMember">
+                <h3>Kevin Ralph</h3>
+                <h4>Drums and Bag Pipes</h4>
+                <img src="images/kevinr.jpg">
+              </div> -->
+
+                </div>
+                <br />
+                <br />
+                <br />
+                <br />
+                <h1 id="schedule">2019 Schedule</h1>
+                <p>January 26 - Tucked Away Brewery</p>
+                <p>March 7 - Light Horse</p>
+                <p>December 7 - Paradise Springs</p>
+
+                <br/>
+                <p>
+
+                    PAST VENUES <br/> Alley Cat <br /> Arlinton County Fair <br /> Auld Shebeen <br /> Boomerang Pirate Ship
+                    <br /> Cowboy Cafe <br /> Gypsy Sallys <br /> Jammin Java <br /> Tysons Biergarten <br /> Westover Beer
+                    Garden <br />
+
+
+                </p>
+            </div>
+        </div>
+    </section>
