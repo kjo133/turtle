@@ -159,7 +159,7 @@ nav.in li {
 #heroLogo {
   width: 100%;
   margin: 0 auto;
-  padding-top: 420px;
+  padding-top: 220px;
   img {
     height: 100%;
     width: 100%;
@@ -193,12 +193,13 @@ nav.in li {
 }
 
 .main {
-  padding: 80px 0px;
-  height: 1500px;
+  padding: 80px 0;
   background-color: #111;
-  overflow-y: scroll;
   div.container {
     width: 100%;
+  }
+  #blurb{
+    padding-bottom: 80px;
   }
   h1 {
     font-size: 64px;
@@ -260,30 +261,30 @@ nav.in li {
       background: url(../images/mike.jpg) no-repeat center center;
       background-size: cover;
     }
+    &:nth-child(4) {
+      background: url(../images/martin.jpg) no-repeat center center;
+      background-size: cover;
+    }
   }
 }
 
 .ourStuff {
-  height: 1300px;
+  // height: 1300px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
     url(../images/jj1.jpg) center no-repeat;
   background-size: cover;
-  overflow-y: scroll;
+  // overflow-y: scroll;
 }
 
-#videos {
-  overflow-y: scroll;
-  height: 1500px;
-}
 
 .mediaContainer {
-  height: 1400px;
+  // height: 1400px;
   width: 90%;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
   text-align: center;
-  overflow-y: scroll;
+  // overflow-y: scroll;
   iframe {
     display: inline-block;
     padding: 30px;
@@ -293,7 +294,7 @@ nav.in li {
 /*Image Gallery*/
 .gallery {
   padding: 80px 0px;
-  height: 2000px;
+  // height: 2000px;
   background-color: #111;
   background-size: cover;
   h1 {
@@ -311,10 +312,7 @@ nav.in li {
     }
   }
 }
-.galleryWrapper {
-  height: 1900px;
-  overflow-y: scroll;
-}
+
 .ImageContainer {
   margin: 0 50px;
   display: grid;
@@ -415,5 +413,5 @@ nav.in li {
 footer {
   height: 75px;
   background-color: black;
-  padding: 20px;
+  margin: 20px;
 }
